@@ -6,43 +6,45 @@
 
 h2 {
 	text-align: center;
-	line-height: 32px;   /* within paragraph */
-  	margin-bottom: 30px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 65px;
+	line-height: 32px;
+  	margin: 40px;
 	letter-spacing: 4px;
 	word-spacing: 4px;
+	color: #179fc7;
 }
 
 h3 {
 	text-align: left;
-	line-height: 32px;   /* within paragraph */
+	line-height: 32px; 
   	margin-bottom: 30px;
+  	margin-top: 50px;
+	font-family: 'Rock Salt', cursive, arial;
+	font-size: 38px;
 }
 
-/*p {
-	padding: 50px;
-	margin:25px 0 50px 0;
-}*/
-
 p {
-
-  margin-bottom: 30px;
+  	margin-bottom: 25px;
   }
 
 body {
-	font-family: arial;
-	font-size: 40px;
-	/*line-height: 50px;*/
+	font-family: 'Slabo 27px', serif, arial;
+	font-size: 25px;
+	color: #f3f1f0;
+	line-height: 45px;
 	margin-left: 20px;
+	background: #201d1e;
 }
 
-/*.container {
-  display: flex;  
-  flex-wrap: wrap;
-  margin: 0 auto;
-  width: 1000px;
-  padding: 5px 15px;
+a:link, a:visited { 
+ 	text-decoration: none; 
+ 	color: #E2c650;
+}
 
-  /*text-align: center;*/
+a:hover, a:active { 
+	text-decoration: underline;
+	color: #419c52; 
 }
 
 .container {
@@ -50,37 +52,36 @@ body {
 	margin: 0;
 	list-style: none;
 	display: flex;
-	width:1000px;
-}
-
-.wrap {
-	flex-wrap: wrap;
+	align-items: center;
 }
 
 .container > * {
   padding: 25px;
-  flex: auto;
+}
 
+.main {
+	padding: 5px 15px;
+	margin: 0 auto;
+	max-width: 1000px;
 }
 
 #logo {
+	margin: 1px;
 	padding: 20px;
 	background: black;
 	text-align: center;
-
 }
 
 .first-cap::first-letter {
 	font-size: 2em;
 	float: left;
 	margin-top: 0;
-	
 }
 
 .imgRight {
-	width: 50%;
+	width: 55%;
 	float: right;
-	padding: 20px 20px 0 0;
+	padding: 20px 0 0 20px;
 }
 
 .imgLeft {
@@ -90,15 +91,18 @@ body {
 }
 
 .aside {
-display: flex; 
-flex: auto;
-align-items: center;
-line-height: 1.5em;
-text-align: center;
-height: 100%;
+	display: flex; 
+	flex: auto;
+	align-items: center;
+	line-height: 1.5em;
+	text-align: center;
+	height: 100%;
+	margin-bottom: 30px;
+	font-family: 'Rock Salt', cursive, arial;
+	color: #179fc7;
+	font-size: 32px;
 }
 
-/*p::first-letter {
-	font-size: 100px;
-	color: red;
-}*/
+.wideFont {
+	line-height: 70px;
+}
