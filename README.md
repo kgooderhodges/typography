@@ -1,1 +1,3 @@
-# typography
+# Muskoka Typography Project
+
+##Katie Hodges
